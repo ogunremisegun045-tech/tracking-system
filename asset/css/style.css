@@ -1,0 +1,67 @@
+/* Map */
+#map {
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Order Status Badges */
+.status-pending {
+    background: #FEF3C7;
+    color: #92400E;
+}
+
+.status-shipped {
+    background: #DBEAFE;
+    color: #1E40AF;
+}
+
+.status-delivered {
+    background: #D1FAE5;
+    color: #065F46;
+}
+
+.status-cancelled {
+    background: #FEE2E2;
+    color: #991B1B;
+}
+
+/* Table hover */
+tr:hover {
+    background: #F9FAFB;
+}
+
+/* Smooth transitions */
+button {
+    transition: all 0.2s ease;
+}
+
+a {
+    transition: all 0.2s ease;
+}
+
+/* Card shadow on hover */
+.card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    transition: all 0.2s ease;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F1F1F1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
