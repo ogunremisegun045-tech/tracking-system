@@ -1,15 +1,15 @@
 <?php
-$servername = "localhost";
+$servername = "gondola.proxy.rlwy.net";
 $username = "root";
-$password = "";
-$database = "tracking_db";
+$password = "BTyJyfvFctqqGTWAZdWwwxPfHoGdvbhL";
+$database = "railway";
+$port = 48985;
 
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = new mysqli($servername, $username, $password, $database, $port);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Session started ONLY here
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
